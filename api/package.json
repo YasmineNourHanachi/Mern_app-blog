@@ -1,0 +1,28 @@
+{
+  "name": "mern_app_blog",
+  "version": "1.0.0",
+  "description": "mern app blog for final project GMC",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "mern",
+    "app",
+    "frontend",
+    "backend",
+    "mongoose",
+    "express"
+  ],
+  "author": "Nour Yasmine Hanachi",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "mongoose": "^6.2.1",
+    "multer": "^1.4.4",
+    "nodemon": "^2.0.7"
+  }
+}
